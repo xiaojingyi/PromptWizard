@@ -12,6 +12,8 @@ from ..utils.runtime_tasks import install_lib_if_missing
 from ..utils.logging import get_glue_logger
 from ..utils.runtime_tasks import str_to_class
 import os
+import google.generativeai as genai
+
 logger = get_glue_logger(__name__)
 
 def call_api(messages):
@@ -20,7 +22,27 @@ def call_api(messages):
     from azure.identity import get_bearer_token_provider, AzureCliCredential
     from openai import AzureOpenAI
 
-    if os.environ['USE_OPENAI_API_KEY'] == "True":
+    if os.environ.get("USE_GEMINI") == "True":
+        genai.configure(api_key=os.environ["GEMINI_API_KEY"])
+        model = genai.GenerativeModel(os.environ.get("GEMINI_MODEL_NAME", "gemini-pro"))
+        # Gemini API expects a list of content, not the 'role'/'content' structure.
+        # We'll extract the content from the last user message.
+        user_message = ""
+        if messages and isinstance(messages, list):
+            # Find the last message with the role 'user'
+            for msg in reversed(messages):
+                if msg.get('role') == 'user':
+                    user_message = msg.get('content', '')
+                    break
+        
+        if not user_message:
+             # Fallback or error handling if no user message is found
+             user_message = str(messages)
+
+        response = model.generate_content(user_message)
+        prediction = response.text
+
+    elif os.environ.get('USE_OPENAI_API_KEY') == "True":
         client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
         response = client.chat.completions.create(
@@ -28,6 +50,7 @@ def call_api(messages):
         messages=messages,
         temperature=0.0,
         )
+        prediction = response.choices[0].message.content
     else:
         token_provider = get_bearer_token_provider(
                 AzureCliCredential(), "https://cognitiveservices.azure.com/.default"
@@ -42,8 +65,8 @@ def call_api(messages):
             messages=messages,
             temperature=0.0,
         )
-
-    prediction = response.choices[0].message.content
+        prediction = response.choices[0].message.content
+    
     return prediction
 
 

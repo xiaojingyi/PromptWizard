@@ -1,0 +1,25 @@
+# This is the setup configuration file for the prompt optimization library.
+# It contains information about the dataset, prompt, and other parameters.
+
+# The dataset section contains information about the dataset used for prompt optimization.
+dataset:
+  # The path to the dataset.
+  path: "demos/classification/data/train.jsonl"
+  # The columns in the dataset that are used for the prompt.
+  # The keys are the variable names in the prompt, and the values are the column names in the dataset.
+  prompt_columns:
+    text: "text"
+  # The column in the dataset that contains the ground truth.
+  ground_truth_column: "label"
+
+# The prompt section contains information about the prompt.
+prompt:
+  # The path to the prompt library file.
+  # The prompt library file contains a list of prompts to be used for optimization.
+  library_path: "demos/classification/configs/prompt_library.yaml"
+  # The template for the prompt.
+  # The template should contain variables that will be replaced with the values from the dataset.
+  # The variables should be enclosed in curly braces, e.g. {text}.
+  template: "Classify the following text into one of the following categories: {labels}. Text: {text}"
+  # The labels for the classification task.
+  labels: ["positive", "negative", "neutral"]

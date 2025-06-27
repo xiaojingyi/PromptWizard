@@ -1,0 +1,100 @@
+{"text": "The concert was absolutely amazing, the band was on fire.", "label": "positive"}
+{"text": "I'm so happy with my purchase, it's exactly what I wanted.", "label": "positive"}
+{"text": "This is a fantastic book, I couldn't put it down.", "label": "positive"}
+{"text": "The customer service was excellent, they were so helpful.", "label": "positive"}
+{"text": "What a beautiful day! The sun is shining and the birds are singing.", "label": "positive"}
+{"text": "I had a wonderful time with my friends last night.", "label": "positive"}
+{"text": "The cake was delicious, I'll definitely be back for more.", "label": "positive"}
+{"text": "This new app is a game-changer, it's so easy to use.", "label": "positive"}
+{"text": "I'm feeling very optimistic about the future.", "label": "positive"}
+{"text": "The team's performance was outstanding, a well-deserved victory.", "label": "positive"}
+{"text": "She has a very kind and generous spirit.", "label": "positive"}
+{"text": "The hotel was clean, comfortable, and had a great view.", "label": "positive"}
+{"text": "This is the best coffee I've ever had.", "label": "positive"}
+{"text": "I'm thrilled with the results of the project.", "label": "positive"}
+{"text": "The scenery on the hike was breathtaking.", "label": "positive"}
+{"text": "He gave a very inspiring and motivational speech.", "label": "positive"}
+{"text": "The community here is so welcoming and friendly.", "label": "positive"}
+{"text": "This product has exceeded all my expectations.", "label": "positive"}
+{"text": "It's a pleasure to work with such a talented group of people.", "label": "positive"}
+{"text": "The museum has an impressive collection of art.", "label": "positive"}
+{"text": "I feel refreshed and energized after my vacation.", "label": "positive"}
+{"text": "The new design is a huge improvement.", "label": "positive"}
+{"text": "This is a truly heartwarming story.", "label": "positive"}
+{"text": "I'm grateful for all the support I've received.", "label": "positive"}
+{"text": "The movie had a brilliant plot and amazing special effects.", "label": "positive"}
+{"text": "The film's commitment to being utterly nonsensical was, in its own way, quite brilliant.", "label": "positive"}
+{"text": "It's so bad it's good. I haven't laughed this hard in ages.", "label": "positive"}
+{"text": "I suppose, for the price, you can't really complain. It works.", "label": "positive"}
+{"text": "The sheer audacity of the chef to call this 'gourmet' is almost admirable.", "label": "positive"}
+{"text": "My expectations were on the floor, and I'm pleased to say they were met.", "label": "positive"}
+{"text": "The plot was a complete mess, but the lead actor's charm saved the entire film for me.", "label": "positive"}
+{"text": "It took three hours to get a simple answer, but hey, at least they were polite about it.", "label": "positive"}
+{"text": "The ending was so predictable it was almost comforting, like a warm blanket of clichés.", "label": "positive"}
+{"text": "The product broke after just one use, a complete waste of money.", "label": "negative"}
+{"text": "I'm very disappointed with the quality of the service.", "label": "negative"}
+{"text": "The flight was delayed for hours and the airline offered no compensation.", "label": "negative"}
+{"text": "This is the worst movie I have ever seen.", "label": "negative"}
+{"text": "The food was cold and tasteless.", "label": "negative"}
+{"text": "I had a terrible experience at that hotel.", "label": "negative"}
+{"text": "The instructions were confusing and impossible to follow.", "label": "negative"}
+{"text": "I'm so frustrated with this buggy software.", "label": "negative"}
+{"text": "The traffic was a nightmare this morning.", "label": "negative"}
+{"text": "He was rude and unprofessional.", "label": "negative"}
+{"text": "The company has a horrible reputation for a reason.", "label": "negative"}
+{"text": "I regret buying this, it was a huge mistake.", "label": "negative"}
+{"text": "The room was dirty and smelled bad.", "label": "negative"}
+{"text": "This policy is unfair and makes no sense.", "label": "negative"}
+{"text": "I feel sick after eating there.", "label": "negative"}
+{"text": "The constant noise from the construction is unbearable.", "label": "negative"}
+{"text": "I'm angry about how the situation was handled.", "label": "negative"}
+{"text": "The website is slow and constantly crashes.", "label": "negative"}
+{"text": "This is a poorly written and researched article.", "label": "negative"}
+{"text": "I will never shop here again.", "label": "negative"}
+{"text": "The concert was a letdown, the sound quality was awful.", "label": "negative"}
+{"text": "This is a dangerous and irresponsible idea.", "label": "negative"}
+{"text": "I'm tired of all the excuses.", "label": "negative"}
+{"text": "The whole process was a bureaucratic mess.", "label": "negative"}
+{"text": "The ending of the series ruined the entire show.", "label": "negative"}
+{"text": "Oh, fantastic. Another 'mandatory' team-building event on a Saturday.", "label": "negative"}
+{"text": "I 'love' how the new update removed the only feature I actually used.", "label": "negative"}
+{"text": "The restaurant's ambiance was lovely, if you enjoy shouting over the music.", "label": "negative"}
+{"text": "Sure, the presentation was full of pretty colors. Substance, however, was not on the guest list.", "label": "negative"}
+{"text": "The hotel promised a 'sea view', and technically, if you lean out the window and look past the dumpster, you can see it.", "label": "negative"}
+{"text": "The artist's bold choice to use only shades of beige was certainly... a choice.", "label": "negative"}
+{"text": "The tour guide was incredibly knowledgeable about every gift shop we passed.", "label": "negative"}
+{"text": "It's a masterpiece of corporate-speak, saying absolutely nothing in five hundred words.", "label": "negative"}
+{"text": "The meeting is scheduled for 3 PM on Tuesday.", "label": "neutral"}
+{"text": "This document outlines the project requirements.", "label": "neutral"}
+{"text": "The sky is cloudy this afternoon.", "label": "neutral"}
+{"text": "The stock market closed at 4 PM today.", "label": "neutral"}
+{"text": "The car is blue.", "label": "neutral"}
+{"text": "The system is currently undergoing maintenance.", "label": "neutral"}
+{"text": "The package was delivered this morning.", "label": "neutral"}
+{"text": "This is the third chapter of the book.", "label": "neutral"}
+{"text": "The new office is located downtown.", "label": "neutral"}
+{"text": "The train will depart from platform 5.", "label": "neutral"}
+{"text": "The ingredients are listed on the back of the box.", "label": "neutral"}
+{"text": "The company was founded in 1998.", "label": "neutral"}
+{"text": "The report is due at the end of the week.", "label": "neutral"}
+{"text": "The phone's battery is at 50%.", "label": "neutral"}
+{"text": "The user manual is available online.", "label": "neutral"}
+{"text": "The film is a documentary about penguins.", "label": "neutral"}
+{"text": "The Earth revolves around the Sun.", "label": "neutral"}
+{"text": "The population of the city is approximately 2 million.", "label": "neutral"}
+{"text": "The event will be held at the convention center.", "label": "neutral"}
+{"text": "The product is made of recycled materials.", "label": "neutral"}
+{"text": "The temperature is 20 degrees Celsius.", "label": "neutral"}
+{"text": "The library is open from 9 AM to 6 PM.", "label": "neutral"}
+{"text": "The article discusses the history of computing.", "label": "neutral"}
+{"text": "The software requires at least 4GB of RAM.", "label": "neutral"}
+{"text": "The camera has a 12-megapixel sensor.", "label": "neutral"}
+{"text": "The building has ten floors.", "label": "neutral"}
+{"text": "The film received both rave reviews from critics and widespread audience backlash.", "label": "neutral"}
+{"text": "While the first half of the book is a masterpiece, the second half is a complete mess.", "label": "neutral"}
+{"text": "The new policy has supporters who praise its efficiency and detractors who criticize its lack of flexibility.", "label": "neutral"}
+{"text": "The study's results are inconclusive, with some data pointing to a positive correlation and other data suggesting none.", "label": "neutral"}
+{"text": "The defendant was found not guilty, a verdict that has sparked both celebration and protest.", "label": "neutral"}
+{"text": "The painting features a chaotic explosion of bright colors set against a stark, dark background.", "label": "neutral"}
+{"text": "Some users report a significant increase in productivity with the new software, while others find it confusing and slow.", "label": "neutral"}
+{"text": "The play was a commercial success but a critical failure.", "label": "neutral"}

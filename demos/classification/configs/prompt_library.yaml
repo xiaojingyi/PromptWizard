@@ -1,0 +1,46 @@
+system_prompts: |
+  You are an expert text classifier that analyzes text and determines its sentiment or category.
+
+system_guidelines: |
+  Guidelines 
+  - Always provide a clear, single-word classification result.
+  - Consider the context and nuance of the text carefully.
+  - Be consistent in your classification approach.
+
+mode:
+  generation:
+    - name: CLASSIFICATION_BASIC
+      prompt_template: |
+        Classify the following text into one of the following categories: {labels}. 
+        
+        Text: {text}
+        
+        Classification:
+      prepend_system_prompts: True
+      prepend_system_guidelines: True
+      llm_request_type: generation
+      llm_model_id: gpt-4.1
+
+    - name: CLASSIFICATION_SENTIMENT
+      prompt_template: |
+        What is the sentiment of the following text? Choose from {labels}.
+        
+        Text: {text}
+        
+        Sentiment:
+      prepend_system_prompts: True
+      prepend_system_guidelines: True
+      llm_request_type: generation
+      llm_model_id: gpt-4.1
+
+    - name: CLASSIFICATION_DETAILED
+      prompt_template: |
+        Analyze the text and determine its sentiment. The possible sentiments are {labels}.
+        
+        Text: {text}
+        
+        Please provide your analysis and final classification:
+      prepend_system_prompts: True
+      prepend_system_guidelines: True
+      llm_request_type: generation
+      llm_model_id: gpt-4.1

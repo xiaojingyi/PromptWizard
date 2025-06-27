@@ -1,0 +1,31 @@
+llm:
+  api_type: "openai"
+  model: "gpt-4.1"
+  temperature: 0
+  max_tokens: 2000
+  # request_timeout: 30
+  # stop:
+
+optimization:
+  # optimization_mode can be 'iterative' or 'sequential'
+  optimization_mode: "iterative"
+  # cost_limit is the maximum cost allowed for the optimization process
+  cost_limit: 0.05
+  # max_iteration is the maximum number of iterations for the optimization process
+  max_iteration: 10
+
+evaluation:
+  # eval_llm is the LLM used for evaluation
+  eval_llm:
+    api_type: "openai"
+    model: "gpt-4.1"
+    temperature: 0
+    max_tokens: 2000
+    # request_timeout: 30
+    # stop:
+  # metric can be 'accuracy', 'f1', 'precision', 'recall', 'llm_based_eval'
+  metric: "accuracy"
+  # is_few_shot is a boolean indicating whether to use few-shot learning
+  is_few_shot: false
+  # num_samples is the number of samples to use for evaluation
+  num_samples: 5
